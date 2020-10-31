@@ -6,7 +6,7 @@ end
 
 def list_dwarves(array)
   total = 0
-  array.each do |list|
+  array.each_with_index do |list|
     puts list.capitalize
   end
   total += 1
