@@ -7,7 +7,7 @@ end
 def list_dwarves(array)
   array.each_with_index do |list|
     total = 1
-    puts "#{list}"
+    puts list
   end
   total += 1
 end
