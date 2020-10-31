@@ -5,9 +5,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  total = 1
   array.each_with_index do |list|
-    puts "#{list.capitalize}"
+    puts list.capitalize}
   end
-  total += 1
 end
